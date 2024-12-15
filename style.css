@@ -1,0 +1,56 @@
+h1{
+    color: #333;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #025353;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 50px;
+
+}
+li:hover{
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    transition: .3s;
+}
+pre{
+    background: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+#patientList{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* width: 33%; */
+    /* align-items: center; */
+}
+.card{
+    width: 400px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: o 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
